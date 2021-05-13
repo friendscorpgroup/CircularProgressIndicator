@@ -151,7 +151,7 @@ public class CircularProgressIndicator extends View {
             progressBackgroundColor = a.getColor(R.styleable.CircularProgressIndicator_progressBackgroundColor, progressBackgroundColor);
             progressStrokeWidth = a.getDimensionPixelSize(R.styleable.CircularProgressIndicator_progressStrokeWidth, progressStrokeWidth);
             progressBackgroundStrokeWidth = a.getDimensionPixelSize(R.styleable.CircularProgressIndicator_progressBackgroundStrokeWidth, progressStrokeWidth);
-            textColor = a.getColor(R.styleable.CircularProgressIndicator_textColor, progressColor);
+            textColor = a.getColor(R.styleable.CircularProgressIndicator_textColorCProgress, progressColor);
             textSize = a.getDimensionPixelSize(R.styleable.CircularProgressIndicator_textSize, textSize);
 
             shouldDrawDot = a.getBoolean(R.styleable.CircularProgressIndicator_drawDot, true);

@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case "progressBackgroundColor":
                 circularProgress.setProgressBackgroundColor(color);
                 break;
-            case "textColor":
+            case "textColorCProgress":
                 circularProgress.setTextColor(color);
                 break;
             case "dotColor":
